@@ -1582,9 +1582,7 @@ class RustdeskImpl {
   }
 
   bool isDisableSettings({dynamic hint}) {
-    //2024/12/13 总是返回是定制客户端，值为:true
-    //return false;
-    return true;
+    return false;
   }
 
   bool isDisableAb({dynamic hint}) {
